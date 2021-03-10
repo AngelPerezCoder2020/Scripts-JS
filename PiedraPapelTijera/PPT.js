@@ -6,8 +6,8 @@ tiros = ["Piedra","Papel","Tijera"];
 
 try{
     while(r<5){
-        J1 = Math.floor(Math.random()*2);
-        J2 = Math.floor(Math.random()*2);
+        J1 = Math.floor(Math.random()*3);
+        J2 = Math.floor(Math.random()*3);
     
         switch(J1){
             case 0:
